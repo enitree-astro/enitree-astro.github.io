@@ -1,7 +1,7 @@
 title: "Nikhil Yadav"
 description: "Research Project Associate"
 logo: "/assets/images/profile.png" # (optional) Add a profile picture
-theme: minimal-mistakes-jekyll
+theme: jekyll-theme-cayman
 minimal_mistakes_skin: default
 
 # Site Navigation
