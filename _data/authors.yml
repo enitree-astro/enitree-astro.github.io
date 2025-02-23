@@ -1,0 +1,12 @@
+nikhilyadav:
+  name: "Nikhil Yadav"
+  avatar: "1000000606.png"
+  bio: "Astronomy Project Associate"
+  location: "India"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/enitree-astro "
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/nikhil-eni"
