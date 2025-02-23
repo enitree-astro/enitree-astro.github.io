@@ -1,9 +1,10 @@
-title: Nikhil Yadav
-#logo
-description: Research Project Associate 
-#show downloads:true
-theme: jekyll-theme-cayman
+title: "Nikhil Yadav"
+description: "Research Project Associate"
+logo: "/assets/images/profile.png" # (optional) Add a profile picture
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: default
 
+# Site Navigation
 navigation:
   - title: "Home"
     url: /
@@ -15,3 +16,9 @@ navigation:
     url: /co-curriculars/
   - title: "Bio"
     url: /bio/
+
+# Plugins
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
