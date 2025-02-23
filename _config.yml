@@ -4,3 +4,14 @@ description: Research Project Associate
 #show downloads:true
 theme: jekyll-theme-cayman
 
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Outreach"
+    url: /outreach/
+  - title: "Co-curriculars"
+    url: /co-curriculars/
+  - title: "Bio"
+    url: /bio/
