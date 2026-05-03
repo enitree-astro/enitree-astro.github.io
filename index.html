@@ -30,8 +30,20 @@
       overflow-x: hidden;
     }
 
-    #starfield { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
+  #starfield { display: none; }  /* hide the canvas, we don't need it anymore */
 
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background-image: url('https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/11/euclid_s_view_of_the_horsehead_nebula/25170854-1-eng-GB/Euclid_s_view_of_the_Horsehead_Nebula_pillars.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  opacity: 0.35;           /* controls how bright/dim the nebula is — try 0.2 to 0.5 */
+  pointer-events: none;
+}
     /* NAV */
     nav {
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
